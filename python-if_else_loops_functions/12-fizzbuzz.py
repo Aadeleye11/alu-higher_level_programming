@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    for i in range(1, 101):  # Loop through numbers from 1 to 100
-        if i % 3 == 0 and i % 5 == 0:  # Check if divisible by both 3 and 5
-            print("Fizzbuzz", end=" ")
+    for i in range(1, 101):
+        if i % 3 == 0 and i % 5 == 0:
+            print("FizzBuzz", end=" ")
         elif i % 3 == 0:
             print("Fizz", end=" ")
         elif i % 5 == 0:
